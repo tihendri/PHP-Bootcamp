@@ -1,0 +1,78 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    responsive.css                                     :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: tihendri <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/10/08 16:27:55 by tihendri          #+#    #+#              #
+#    Updated: 2019/10/08 17:16:58 by tihendri         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+  body{
+            font-family: "Geneva";
+        }
+        h1{
+            text-align:center;
+			color: #F8F8FF;
+        }
+        div{
+            text-align: center;
+        }
+        p{
+            margin:30px;
+        }
+        p.mass{
+            text-align:right;
+        }
+        h2{
+            text-align:center;
+            margin:10px;
+        }
+        td {
+            min-width:80px;
+        }
+        td.diatomic{
+            background-color:#AFEEEE;
+        }
+        td.noble-gas{
+            background-color: #E0FFFF;
+        }
+        td.alkali-metal{
+            background-color: #0000CD;
+			color: #F8F8FF;
+        }
+        td.alkaline-earth{
+            background-color: #0000FF;
+			color: #F8F8FF;
+        }
+        td.metalloid{
+            background-color: #00BFFF;
+			color: #F8F8FF;
+        }
+        td.polyatomic{
+            background-color: #87CEFA;
+        }
+
+        td.transition{
+            background-color: #1E90FF;
+			color: #F8F8FF;
+        }
+
+        td.post-transition{
+            background-color: #00BFFF;
+			color: #F8F8FF;
+        }
+        td.lanthanide{
+            background-color: #BA55D3;
+			color: #F8F8FF;
+        }
+        td.actinide{
+            background-color: #9400D3;
+			color: #F8F8FF;
+        }
+        td.post_radiation{
+            background-color: #DDA0DD;
+			color: #F8F8FF;
+        }

@@ -1,12 +1,12 @@
 <!-- *********************************************************************** -->
 <!--                                                                         -->
 <!--                                                      :::      ::::::::  -->
-<!-- mendeleiev.html                                    :+:      :+:    :+:  -->
+<!-- responsive.html                                    :+:      :+:    :+:  -->
 <!--                                                  +:+ +:+         +:+    -->
 <!-- By: tihendri <marvin@42.fr>                    +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
 <!-- Created: 2019/10/07 16:39:09 by tihendri          #+#    #+#            -->
-<!-- Updated: 2019/10/08 16:30:13 by tihendri         ###   ########.fr      -->
+<!-- Updated: 2019/10/08 17:15:14 by tihendri         ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
@@ -14,82 +14,16 @@
 <html>
 <head>
     <meta charset="UTF-8">
+	<link rel="stylesheet" href="responsive.css">
     <title>Mendeleïev's Periodic Table of Elements</title>
-    <style>
-        body{
-            font-family: "Geneva";
-        }
-        h1{
-            text-align:center;
-			color: #F8F8FF;
-        }
-        div{
-            text-align: center;
-        }
-        p{
-            margin:3px;
-        }
-        p.mass{
-            text-align:right;
-        }
-        h2{
-            text-align:center;
-            margin:10px;
-        }
-        td {
-            min-width:80px;
-        }
-        td.diatomic{
-            background-color:#AFEEEE;
-        }
-        td.noble-gas{
-            background-color: #E0FFFF;
-        }
-        td.alkali-metal{
-            background-color: #0000CD;
-			color: #F8F8FF;
-        }
-        td.alkaline-earth{
-            background-color: #0000FF;
-			color: #F8F8FF;
-        }
-        td.metalloid{
-            background-color: #00BFFF;
-			color: #F8F8FF;
-        }
-        td.polyatomic{
-            background-color: #87CEFA;
-        }
-
-        td.transition{
-            background-color: #1E90FF;
-			color: #F8F8FF;
-        }
-
-        td.post-transition{
-            background-color: #00BFFF;
-			color: #F8F8FF;
-        }
-        td.lanthanide{
-            background-color: #BA55D3;
-			color: #F8F8FF;
-        }
-        td.actinide{
-            background-color: #9400D3;
-			color: #F8F8FF;
-        }
-        td.post_radiation{
-            background-color: #DDA0DD;
-			color: #F8F8FF;
-        }
-    </style>
 </head>
 <body background="https://upload.wikimedia.org/wikipedia/commons/b/b3/Medeleeff_by_repin.jpg">
 	<h1>Periodic Table of Elements</h1>
-    <div><img src=background="https://upload.wikimedia.org/wikipedia/commons/b/b3/Medeleeff_by_repin.jpg" alt=""></div>
-    <table>
-        <tr>
-            <td class="diatomic"><p class="mass">1.008</p><h2>H</h2><p class="num">1</p></td>
+	<div><img src=background="https://upload.wikimedia.org/wikipedia/commons/b/b3/Medeleeff_by_repin.jpg" alt=""></div>
+	<div style="overflow-y:auto;">
+	<table contenteditable="true"  >
+		<tr>
+			<td class="diatomic"><p class="mass">1.008</p><h2>H</h2><p class="num">1</p></td>
             <td colspan="16"></td>
             <td class="noble-gas"><p class="mass">4.00</p><h2>He</h2><p class="num">2</p></td>
         </tr>
@@ -233,5 +167,6 @@
             <td class="actinide"><p class="mass">[259]</p><h2>No</h2><p class="num">102</p></td>
         </tr>
     </table>
+	</div>
 </body>
 </html>

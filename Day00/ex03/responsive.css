@@ -6,73 +6,85 @@
 #    By: tihendri <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/08 16:27:55 by tihendri          #+#    #+#              #
-#    Updated: 2019/10/08 17:16:58 by tihendri         ###   ########.fr        #
+#    Updated: 2019/10/17 10:52:21 by tihendri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-  body{
-            font-family: "Geneva";
-        }
-        h1{
-            text-align:center;
-			color: #F8F8FF;
-        }
-        div{
-            text-align: center;
-        }
-        p{
-            margin:30px;
-        }
-        p.mass{
-            text-align:right;
-        }
-        h2{
-            text-align:center;
-            margin:10px;
-        }
-        td {
-            min-width:80px;
-        }
-        td.diatomic{
-            background-color:#AFEEEE;
-        }
-        td.noble-gas{
-            background-color: #E0FFFF;
-        }
-        td.alkali-metal{
-            background-color: #0000CD;
-			color: #F8F8FF;
-        }
-        td.alkaline-earth{
-            background-color: #0000FF;
-			color: #F8F8FF;
-        }
-        td.metalloid{
-            background-color: #00BFFF;
-			color: #F8F8FF;
-        }
-        td.polyatomic{
-            background-color: #87CEFA;
-        }
+body{
+    font-family: "Arial";
+}
 
-        td.transition{
-            background-color: #1E90FF;
-			color: #F8F8FF;
-        }
+h1{
+    text-align:center;
+    font-size:2vw;
+}
 
-        td.post-transition{
-            background-color: #00BFFF;
-			color: #F8F8FF;
-        }
-        td.lanthanide{
-            background-color: #BA55D3;
-			color: #F8F8FF;
-        }
-        td.actinide{
-            background-color: #9400D3;
-			color: #F8F8FF;
-        }
-        td.post_radiation{
-            background-color: #DDA0DD;
-			color: #F8F8FF;
-        }
+div{
+    text-align: center;
+}
+
+p{
+    margin:3px;
+    font-size:1vw;
+}
+
+p.mass{
+    text-align:right;
+}
+
+h2{
+    text-align:center;
+    margin:5px 0;
+    font-size:1.5vw;
+}
+
+table{
+    width:100%;
+}
+
+td {
+    width:5.55555%;
+}
+
+td.diatomic{
+    background-color:#d7f872;
+}
+
+td.noble-gas{
+    background-color: #abf4f3;
+}
+
+td.alkali-metal{
+    background-color: #f24a4e;
+}
+
+td.alkaline-earth{
+    background-color: #f3ce93;
+}
+
+td.metalloid{
+    background-color: #b9bb7f;
+}
+
+td.polyatomic{
+    background-color: #8bf8ac;
+}
+
+td.transition{
+    background-color: #f2a9aa;
+}
+
+td.post-transition{
+    background-color: #b8b8b8;
+}
+
+td.lanthanide{
+    background-color: #f2a3f4;
+}
+
+td.actinide{
+    background-color: #f27ab9;
+}
+td.post-radiation{
+    background-color: #f0f8ff;
+}
